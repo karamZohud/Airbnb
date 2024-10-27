@@ -1,4 +1,4 @@
-import { LiveData, LiveItem } from "../../types/app";
+import { LiveItem } from "../../types/app";
 import { getLive } from "../../utils/api";
 import { MainHeading } from "../MainHeading";
 import { LiveCard } from "./LiveCard";

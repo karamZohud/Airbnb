@@ -37,7 +37,7 @@ const Map = ({ searchResultsData }: { searchResultsData: ListDataCard }) => {
         })
       }
     >
-      {searchResultsData.map((ele, index) => (
+      {searchResultsData.map((ele) => (
         <div key={ele.long}>
           <Marker longitude={ele.long} latitude={ele.lat}>
             <div

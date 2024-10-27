@@ -1,10 +1,9 @@
 import React from "react";
-import { ExploreData } from "../../types/app";
 import Image from "next/image";
 
 interface ExploreCardProps {
   img: string;
-  location: String;
+  location: string;
   distance: string;
 }
 

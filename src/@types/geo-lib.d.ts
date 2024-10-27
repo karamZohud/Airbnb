@@ -1,4 +1,4 @@
 declare module 'geo-lib' {
-  const value: any;
+  const value: number;
   export default value;
 }
